@@ -11,6 +11,10 @@ set( TCP_SOURCES
      "${CMAKE_CURRENT_LIST_DIR}/../../FreeRTOS_Sockets.c"
      "${CMAKE_CURRENT_LIST_DIR}/../../FreeRTOS_Stream_Buffer.c"
      "${CMAKE_CURRENT_LIST_DIR}/../../FreeRTOS_TCP_IP.c"
+     "${CMAKE_CURRENT_LIST_DIR}/../../TCP_WIN/TCP_WIN_Transmission.c"
+     "${CMAKE_CURRENT_LIST_DIR}/../../TCP_WIN/TCP_WIN_Reception.c"
+     "${CMAKE_CURRENT_LIST_DIR}/../../TCP_WIN/TCP_WIN_TinyTCP.c"
+     "${CMAKE_CURRENT_LIST_DIR}/../../TCP_WIN/TCP_WIN_Utils.c"
      "${CMAKE_CURRENT_LIST_DIR}/../../FreeRTOS_TCP_WIN.c"
      "${CMAKE_CURRENT_LIST_DIR}/../../FreeRTOS_UDP_IP.c" )
 
